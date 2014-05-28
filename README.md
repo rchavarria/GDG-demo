@@ -48,7 +48,7 @@ sudo npm install -g generator-angular
 
 <code>
 npm install
-</code
+</code>
 
 
 4.- Instalar Apache Cordova
