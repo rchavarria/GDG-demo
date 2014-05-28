@@ -4,9 +4,9 @@ GDG Demo
 Instrucciones para ejecutar la demo en el navegador una vez clonado el proyecto
 ===============================================================================
 
- 1. Instalar node en la página nodejs.org
+ 1.- Instalar node en la página nodejs.org
 
- 2. Instalar yeoman, bower y grunt instalado 
+ 2.- Instalar yeoman, bower y grunt instalado 
  y el generador de angular si no
 
 <code>
@@ -17,7 +17,7 @@ Instrucciones para ejecutar la demo en el navegador una vez clonado el proyecto
  sudo npm install -g generator-angular
 </code>
 
- 3. Para visualizar la aplicación en el navegador, ejecutar:
+ 3.- Para visualizar la aplicación en el navegador, ejecutar:
 
 <code>
  grunt serve
@@ -27,9 +27,9 @@ Instrucciones para ejecutar la demo en el navegador una vez clonado el proyecto
 Instrucciones para ejecutar la demo en el móvil una vez clonado el proyecto
 ===============================================================================
 
- 1. Instalar node en la página nodejs.org
+ 1.- Instalar node en la página nodejs.org
 
- 2. Instalar yeoman, bower y grunt instalado 
+ 2.- Instalar yeoman, bower y grunt instalado 
  y el generador de angular si no
 
 <code>
@@ -40,13 +40,13 @@ Instrucciones para ejecutar la demo en el móvil una vez clonado el proyecto
  sudo npm install -g generator-angular
 </code>
 
- 3. Instalar Apache Cordova
+ 3.- Instalar Apache Cordova
 
 <code>
  sudo npm install -g cordova
 </code>
 
- 4. Creamos el proyecto para móvil
+ 4.- Creamos el proyecto para móvil
  
 <code>
  cordova create cordova-apps "com.autentia" "GDGDemo" --copy-from=app
@@ -64,7 +64,7 @@ Instrucciones para ejecutar la demo en el móvil una vez clonado el proyecto
  cordova run android
 </code>
 
- 5. Añadimos todos los plugins necesarios
+ 5.- Añadimos todos los plugins necesarios
 
 <code>
  cordova plugins add org.apache.cordova.geolocation --> añade el soporte de geolocalización en el móvil
