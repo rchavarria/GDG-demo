@@ -16,7 +16,13 @@ sudo npm install -g yo bower grunt
 sudo npm install -g generator-angular
 </code>
 
-3.- Para visualizar la aplicación en el navegador, ejecutar:
+3.- Para instalar las dependencias necesarias ejecutar en la raíz del proyecto:
+
+<code>
+npm install
+</code
+
+4.- Para visualizar la aplicación en el navegador, desde la raíz del proyecto, ejecutar:
 
 <code>
 grunt serve
@@ -38,13 +44,20 @@ sudo npm install -g yo bower grunt
 sudo npm install -g generator-angular
 </code>
 
-3.- Instalar Apache Cordova
+3.- Para instalar las dependencias necesarias ejecutar en la raíz del proyecto:
+
+<code>
+npm install
+</code
+
+
+4.- Instalar Apache Cordova
 
 <code>
 sudo npm install -g cordova
 </code>
 
-4.- Creamos el proyecto para móvil
+5.- Creamos el proyecto para móvil
 
 <code>
 cordova create cordova-apps "com.autentia" "GDGDemo" --copy-from=app
@@ -62,7 +75,7 @@ cordova build android
 cordova run android
 </code>
 
-5.- Añadimos todos los plugins necesarios
+6.- Añadimos todos los plugins necesarios
 
 Añade el soporte de geolocalización en el móvil
 
