@@ -1,0 +1,16 @@
+
+<ion-view title="Acelerómetro">
+	<ion-nav-buttons side="left">
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+	<ion-content padding="true">
+		<p>Valores:</p>
+		<ul>
+			<li>X: {{acc_x}}</li>
+			<li>Y: {{acc_y}}</li>
+			<li>Z: {{acc_z}}</li>
+			<li>TIMESTAMP: {{acc_timestamp}}</li>
+		</ul>
+		<button class="button" ng-click="stop()">Parar Acelerometro</button>
+	</ion-content>
+</ion-view>
