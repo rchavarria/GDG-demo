@@ -20,7 +20,7 @@ sudo npm install -g generator-angular
 
 <code>
 npm install
-</code
+</code>
 
 4.- Para visualizar la aplicación en el navegador, desde la raíz del proyecto, ejecutar:
 
