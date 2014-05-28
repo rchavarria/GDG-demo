@@ -67,13 +67,6 @@ cordova create cordova-apps "com.autentia" "GDGDemo" --copy-from=app
 cd cordova-apps && cordova platforms add android [o la plataforma que queramos]
 </code>
  
-<code>
-cordova build android
-</code>
- 
-<code>
-cordova run android
-</code>
 
 6.- Añadimos todos los plugins necesarios
 
@@ -120,3 +113,12 @@ cordova plugin add org.apache.cordova.device-motion
 </code>
 
 
+7.- Ejecutamos la aplicación en el terminal de Android que tengamos registrado
+
+<code>
+cordova build android
+</code>
+ 
+<code>
+cordova run android
+</code>
