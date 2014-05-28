@@ -60,7 +60,7 @@ sudo npm install -g cordova
 5.- Creamos el proyecto para móvil
 
 <code>
-cordova create cordova-apps "com.autentia" "GDGDemo" --copy-from=app
+cordova create cordova-apps "com.autentia" "GDGDemo" --link-to=app
 </code>
 
 <code>
