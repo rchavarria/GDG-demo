@@ -65,36 +65,43 @@ cordova run android
 5.- Añadimos todos los plugins necesarios
 
 Añade el soporte de geolocalización en el móvil
+
 <code>
 cordova plugins add org.apache.cordova.geolocation 
 </code>
 
 Añade el soporte de cámara del móvil
+
 <code>
 cordova plugins add org.apache.cordova.camera
 </code>
  
 Añade soporte de vibración
+
 <code>
 cordova plugin add org.apache.cordova.vibration 
 </code>
  
 Permite mostrar la información del dispositivo
+
 <code>
 cordova plugin add org.apache.cordova.device
 </code>
  
 Da información del tipo de conexión actual
+
 <code>
 cordova plugin add org.apache.cordova.network-information
 </code>
  
 Permite emitir pitidos y mostrar alertas
+
 <code>
 cordova plugin add org.apache.cordova.dialogs
 </code>
 
 Permite utilizar el acelerómetro
+
 <code>
 cordova plugin add org.apache.cordova.device-motion
 </code>
