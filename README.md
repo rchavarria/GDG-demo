@@ -2,7 +2,7 @@ GDG Demo
 ===============
 
 Instrucciones para ejecutar la demo en el navegador una vez clonado el proyecto
-===============================================================================
+--------------------------------------------------------------------------------
 
 1.- Instalar node en la página nodejs.org
 
@@ -24,7 +24,7 @@ grunt serve
 
 
 Instrucciones para ejecutar la demo en el móvil una vez clonado el proyecto
-===============================================================================
+----------------------------------------------------------------------------
 
 1.- Instalar node en la página nodejs.org
 
