@@ -6,7 +6,7 @@ Instrucciones para ejecutar la demo en el navegador una vez clonado el proyecto
 
 1.- Instalar node en la página nodejs.org
 
-2.- Instalar yeoman, bower y grunt instalado y el generador de angular si no
+2.- Instalar yeoman, bower y grunt instalado y el generador de angular
 
 <code>
 sudo npm install -g yo bower grunt
