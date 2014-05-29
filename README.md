@@ -22,6 +22,10 @@ sudo npm install -g generator-angular
 npm install
 </code>
 
+<code>
+bower install
+</code>
+
 4.- Para visualizar la aplicación en el navegador, desde la raíz del proyecto, ejecutar:
 
 <code>
@@ -48,6 +52,10 @@ sudo npm install -g generator-angular
 
 <code>
 npm install
+</code>
+
+<code>
+bower install
 </code>
 
 
