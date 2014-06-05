@@ -74,7 +74,8 @@ cordova create cordova-apps "com.autentia" "GDGDemo" --link-to=app
 <code>
 cd cordova-apps && cordova platforms add android [o la plataforma que queramos]
 </code>
- 
+
+Nota: para poder añadir la plataforma android (que es nuestro caso), se necesita tener instalado [Apache Ant](http://ant.apache.org) y [Android SDK](https://developer.android.com/sdk/index.html). En la variable de entorno `PATH` deben de estar accesibles: la herramienta `ant` y los directorios `tools` y `platform-tools` del Android SDK. 
 
 6.- Añadimos todos los plugins necesarios
 
